@@ -2,16 +2,25 @@ body {
   font-family: sans-serif;
 }
 h1, h2 {
-  font-family: sans-serif
-  color gray
+  font-family: sans-serif;
+  color: gray;
   }
 h1{
-  border-bottom: 1px soild black
+  border-bottom: 1px soild black;
 }
-P {
-  font-family: sans-serif;
-  color:maroon;
+p {
+   font-family: sans-serif;
+  color: maroon;
+}
+blockquote.greentea p.greentea {
+  color: green;
+}
+blockquote.raspberry p.raspberry {
+  color: blue;
+}
+blockquote.blueberry p.blueberry {
+  color: purple;
 }
 em {
-  font-family: serif;
+  font-style: initial
 }
